@@ -44,7 +44,7 @@ body{
     font-family: "Architects-Daughter", sans-serif;
     font-size: 32px;
     font-weight: 200;
-    padding-left: 1px;
+    padding-left: 10px;
 }
 
 .logo-container h1 span{
@@ -93,19 +93,19 @@ body{
     padding-right: 5px;
 }
 
-/*use this class to assign classes to the center?
-.center_column {
-    float: none;
-    width: 75%;
-    padding-left: 10px;
-    padding-right: 10px;
-}*/
 
 /*this code is for the text cards*/
 .card {
     background-color: hsl(217, 0%, 86%);
     padding: 20px;
     margin-top: 20px;
+}
+
+.author_pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 
