@@ -70,7 +70,7 @@ body{
     display: table-cell;
     vertical-align: middle;
     height: 100%;
-    color: white;
+    color: black;
     font-family: "Architects-Daughter", sans-serif;
     font-size: 16px;
     text-decoration: underline;
@@ -93,12 +93,23 @@ body{
     padding-right: 5px;
 }
 
+/*use this class to assign classes to the center?
+.center_column {
+    float: none;
+    width: 75%;
+    padding-left: 10px;
+    padding-right: 10px;
+}*/
+
 /*this code is for the text cards*/
 .card {
     background-color: hsl(217, 0%, 86%);
     padding: 20px;
     margin-top: 20px;
 }
+
+
+
 
 /*responsive layout - when the screen is less than 800px wide the
 the two columns stack on top of each other instead of next to each other*/
