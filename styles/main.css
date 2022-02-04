@@ -108,6 +108,18 @@ body{
     width: 50%;
 }
 
+a.home_page_link{
+    color: black;
+}
+
+a.home_page_link:visited {
+    color: black;
+}
+
+a.home_page_link:hover {
+    color: rgb(114, 114, 114);
+}
+
 
 
 
