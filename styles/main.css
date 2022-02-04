@@ -20,7 +20,7 @@ body{
     background-color: hsl(85, 31%, 53%);
 }
 
-
+/*commented out due to not being needed right now, contains code to make an inner header
 .inner-header{
     width: 1000px;
     height: 100%;
@@ -28,6 +28,7 @@ body{
     margin: 0 auto;
     background-color: hsl(85, 31%, 53%);
 }
+*/
 
 .logo-container{
     height: 100%;
@@ -108,7 +109,7 @@ body{
     width: 50%;
 }
 
-a.home_page_link{
+a.home_page_link {
     color: black;
 }
 
