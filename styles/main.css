@@ -8,7 +8,7 @@
 }
 
 body{
-    background-color: white;
+    background-color: hsla(85, 31%, 53%, 0.2);
 }
 
 
@@ -77,22 +77,38 @@ body{
     text-decoration: underline;
 }
 
-/* Bady text code*/
+/* Body text code*/
+
+
 
 /*use this class to align cards to the left*/
 .left_column {
     float: left;
-    width: 70%;
-    padding-left: 5px;
+    width: 50%;
+    padding-left: 100px;
 }
 
 /*use this class to align cards to the right*/
 .right_column {
     float: right;
     width: 25%;
-    padding-left: 10px;
-    padding-right: 5px;
+    padding-left: 0px;
+    padding-right: 100px;
 }
+
+.article {
+    margin: auto;
+    width: 75%;
+    background-color: white;
+    
+}
+
+.center_image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+  }
 
 
 /*this code is for the text cards*/
@@ -100,7 +116,10 @@ body{
     background-color: hsl(217, 0%, 86%);
     padding: 20px;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
+
+
 
 .author_pic {
     display: block;
