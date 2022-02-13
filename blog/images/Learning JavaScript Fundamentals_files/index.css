@@ -1,0 +1,35 @@
+ol li{
+  font-size:1em;
+  margin-top: 10px;
+}
+
+.tick{
+  background-color: #d9ead3;
+  width: 450px;
+}
+.tick:after {
+  content: '\2713';
+  display: inline-block;
+  color: green;
+  padding: 0 6px 0 0;
+}
+
+.cross {
+  background-color: #f4cccc;
+  width: 450px;
+}
+
+.cross:after {
+  content: ' ➜ not passing yet';
+  display: inline-block;
+  color: red;
+  padding: 0 6px 0 0;
+}
+
+body {
+  font-family: 'Fira Code', monospace;
+  margin-top: 30px;
+  margin-left: 60px;
+  margin-bottom: 30px;
+  width: 450px;
+}

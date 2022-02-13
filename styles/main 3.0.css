@@ -1,0 +1,146 @@
+* { 
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    background-color: #536271;
+}
+
+.top-banner {
+    height: 250px;
+    width: 75%;
+    margin: auto;
+    background-color: #6A687A;
+}
+
+.banner-column-left {
+    float: left;
+    width: 33%;
+    background-color: #6A687A;
+    height: 250px;
+}
+
+.banner-column-right {
+    float: right;
+    display: block;
+    width: 25%;
+    height: 100%;
+    background-color: #6A687A;
+}
+
+.container-image-top {
+  height: 95%;
+  width: 95%;
+  margin: auto;
+  border-radius: 50%;
+  padding-top: 2%;
+}
+
+
+.logo-container {
+    width: auto;
+    
+    background-color: #6A687A;
+    font-family: "Roboto";
+    font-size: 200%;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+
+
+/*body classes*/
+
+body {
+    background-color: #536271;
+}
+
+.main-body-card-left {
+    height: 100%;
+    width: 37.5%;
+    background-color: #DCC7BE;
+    float: left;
+    margin-left: 12.5%;
+}
+
+.main-body-card-right {
+    height: 100%;
+    width: 37.5%;
+    background-color: #DCC7BE;
+    float: right;
+    margin-right: 12.5%;    
+}
+
+
+.image-container {
+  position: relative;
+  width: 450px;
+  height: 350px;
+  background-color: #6A687A;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.container-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: .85;
+  transition: .5s ease;
+  background-color: #536271;
+}
+
+.image-container:hover .overlay {
+  opacity: 1;
+}
+
+.container-text {
+  color: black;
+  font-size: 30px;
+  font-family: "Roboto";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/*footer stuff*/
+
+footer {
+  background-color: #536271;
+}
+
+.bottom-banner {
+  height: 150px;
+  width: 75%;
+  margin: auto;
+  background-color: #6A687A;
+}
+
+.bottom-banner-center {
+  width: auto;
+  margin: auto;
+  background-color: #6A687A;
+  font-family: "Roboto";
+  text-align: center;
+  font-size: 100%;
+  padding-top: 30px;
+  padding-left: 30px;
+}

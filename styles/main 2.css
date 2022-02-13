@@ -1,4 +1,7 @@
 
+
+
+
 * { 
     margin: 0;
     padding: 0;
@@ -42,7 +45,7 @@ body{
     display: table-cell;
     vertical-align: middle;
     text-align: right;
-    font-family: "Architects-Daughter", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 32px;
     font-weight: 200;
     padding-left: 10px;
@@ -72,7 +75,7 @@ body{
     vertical-align: middle;
     height: 100%;
     color: black;
-    font-family: "Architects-Daughter", sans-serif;
+    font-family: "Roboto", "sans-serif";
     font-size: 16px;
     text-decoration: underline;
 }
@@ -94,15 +97,14 @@ body{
 /*use this class to align cards to the left*/
 .left_column {
     float: left;
-    width: 50%;
+    width: 40%;
     padding-left: 100px;
 }
 
 /*use this class to align cards to the right*/
 .right_column {
     float: right;
-    width: 25%;
-    padding-left: 0px;
+    width: 40%;
     padding-right: 100px;
 }
 
@@ -133,6 +135,15 @@ body{
     padding: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
+    font-family: "Roboto", "sans-serif";
+}
+
+.home_page_card {
+    background-color: hsl(217, 0%, 86%);
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "Roboto", "sans-serif";
 }
 
 
