@@ -4,118 +4,88 @@
   <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">  
-    <link href="styles/main.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="styles/main 3.0.css" rel="stylesheet" type="text/css">
     <title>Zak's Blog</title>
-  </head>  
-
-<!-- This section contains the code for the head banner-->
-
-  <head>
-      <div class="header">
-          <div class="logo-container">
-            <h1>Zak's<span> Blog</span></h1>
-          </div>
-          <ul class="navigation">
-            <a href="index.html"><li>Home</li></a>
-          </ul>
-        </div>  
-      </div>  
   </head>
-
-<!-- this section contains the main body below the banner-->
-
-  <body>
-    
-    
-      <div class="row">
-        <div class="right_column">
-          <div class="card">
-            <div class="author_pic">
-              <img src="blog/images/author-pic.JPG" height="160" width="150" alt="a picture of the authors face" class="center_image">
-            </div>  
-            <br>
-            <h2>About this blog and it's author</h2>
-            <br>
-            <p>Zak is an aspiring web developer/musician from Christchurch, New Zealand</p>
-            <br>
-            <p>He enjoys playing the drums, musical theatre, and ramen.</p>
-            <br>
-            <p>Here you will find his blog posts through the DevAcademy journey</p>
-          </div>
-        </div>
-      
-      
-      
-        <div class="left_column">
-          <a class="home_page_link" href="blog/html-css.html">
-          <div class="card">
-            <h2>What's The Difference Between Margin, Border And Padding?</h2>
-            <h5>Sprint 2</h5>
-            <br>
-            <p>Ever wondered what the difference between these commonly used aspects of CSS?</p>
-          </div>
-          </a>
   
-        <a class="home_page_link" href="blog/identity-values.html">
-          <div class="card">
-            <h2>My Identity</h2>
-            <h5>Sprint 2</h5>
-            <br>
-            <p>I introduce my core values and identity.</p>
-          </div>
-        </a>
-
-        <a class="home_page_link" href="blog/learning-plan.html">  
-          <div class="card">
-            <h2>My Learning Plan</h2>
-            <h5>Sprint 2</h5>
-            <br>
-            <p>Find my learning plan.</p>
-          </div>
-        </a>  
-       
-
-        <a class="home_page_link" href="blog/emotional-intelligence.html">
-          <div class="card">
-            <h2>EQ And IQ, Whats The Difference?</h2>
-            <h5>Sprint 3</h5>
-            <br>
-            <P>Learn about emotional intelligence, how it relates to IQ, and why it's important!</P>
-          </div>
-        </a>
-      
-      
-      <a class="home_page_link" href="blog/javascript-dom.html">
-        <div class="card">
-          <h2>Learn More About Our Three Programming Languages</h2>
-          <h5>Sprint 3</h5>
-          <br>
-          <p>Learn about Javascript, the DOM and some more about HTML and CSS</p>
+<header>
+    
+    <div class="top-banner">
+        <div class="banner-column-left">
+            <div class="logo-container">
+                <h1>Zak's<br>blog</h1>
+            </div>
         </div>
-      </a>
+        <div class="banner-column-right">
+            <div class="container-image-top">
+              <img src="blog/images/author-pic.JPG" class="container-image-top">
+            </div>
 
-      <a class="home_page_link" href="blog/javascript-dom.html">
-        <div class="card">
-          <h2>Neuroplasticity And Growth Mindset</h2>
-          <h5>Sprint 4</h5>
-          <br>
-          <p>Learn about the principles of neuroplasticity and the growth mindset.</p>
         </div>
-      </a>
-
-      <a class="home_page_link" href="blog/problem-solving.html">
-        <div class="card">
-          <h2>Problem Solving</h2>
-          <h5>Sprint 4</h5>
-          <br>
-          <p>Learn my problem solving experiences.</p>
-        </div>
-      </a>
-
     </div>
-      
-      </div>  
-  </div>  
-  </body>
-</html>
+</header>
+
+<body>
+  <!--left side-->
+    <div class="main-body-card-left">
+        <div class="image-container">
+            <img src="blog/images/question-mark.jpeg" alt="GG" class="container-image">
+            <a href="blog/html-css.html" class="overlay">
+              <div class="container-text">What's The Difference Between Margin, Border And Padding?</div>
+            </a>
+          </div>
+          <div class="image-container">
+            <img src="blog/images/plan-dice.jpeg" alt="GG" class="container-image">
+            <a href="blog/learning-plan.html" class="overlay">
+              <div class="container-text">My Learning Plan</div>
+            </a>
+          </div>
+          <div class="image-container">
+            <img src="blog/images/code.jpeg" alt="GG" class="container-image">
+            <a href="blog/javascript-dom.html" class="overlay">
+              <div class="container-text">Learn More About HTML, CSS, Javascript and the DOM</div>
+            </a>
+          </div>
+          <div class="image-container">
+            <img src="blog/images/problem-solving.jpeg" alt="GG" class="container-image">
+            <a href="blog/problem-solving.html" class="overlay">
+              <div class="container-text">Problem Solving</div>
+            </a>
+      </div>
+    </div>
+
+  <!--right side-->  
+    <div class="main-body-card-right">
+      <div class="image-container">
+          <img src="blog/images/me.jpg" alt="GG" class="container-image">
+          <a href="blog/identity-values.html" class="overlay">
+            <div class="container-text">My Identitity</div>
+          </a>
+        </div>
+        <div class="image-container">
+          <img src="blog/images/eq-iq.jpeg" alt="GG" class="container-image">
+          <a href="blog/emotional-intelligence.html" class="overlay">
+            <div class="container-text">EQ And IQ, What's The Difference?</div>
+          </a>
+        </div>
+        <div class="image-container">
+          <img src="blog/images/neuroplasticity.jpeg" alt="GG" class="container-image">
+          <a href="blog/neuroplasticity.html" class="overlay">
+            <div class="container-text">Neuroplasticity And Growth Mindset</div>
+          </a>
+        </div>
+        <div class="image-container">
+          <img src="blog/images/coming-soon.jpeg" alt="GG" class="container-image">
+          <div class="overlay">
+            <div class="container-text">Coming Soon...</div>
+          </div>
+        </div>
+    </div>
+</body>
+
+<footer>
+  <div class="bottom-banner">
+    <div class="bottom-banner-center">Created By Williams Web Design</div>
+  </div>
+</footer>

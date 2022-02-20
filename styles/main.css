@@ -1,171 +1,166 @@
-
 * { 
     margin: 0;
     padding: 0;
     list-style: none;
     text-decoration: none;
-    
 }
 
-body{
-    background-color: hsla(85, 31%, 53%, 0.2);
+header {
+    background-color: #536271;
 }
 
-
-/* Banner header code */
-.header{
-    width: 100%;
-    height: 80px;
-    display: block;
-    background-color: hsl(85, 31%, 53%);
-}
-
-/*commented out due to not being needed right now, contains code to make an inner header
-.inner-header{
-    width: 1000px;
-    height: 100%;
-    align-content: left;
-    margin: 0 auto;
-    background-color: hsl(85, 31%, 53%);
-}
-*/
-
-.logo-container{
-    height: 100%;
-    display: table;
-    float: left;
-}
-
-.logo-container h1{
-    color: #101010;
-    height: 100%;
-    display: table-cell;
-    vertical-align: middle;
-    text-align: right;
-    font-family: "Architects-Daughter", sans-serif;
-    font-size: 32px;
-    font-weight: 200;
-    padding-left: 10px;
-}
-
-.logo-container h1 span{
-    font-weight: 800;
-    
-}
-
-.navigation {
-    float: right;
-    height: 100%;
-}
-
-.navigation a{
-    height: 100%;
-    display: table;
-    float:left;
-    padding: 0px 20px;
-}
-
-.navigation a li{
-    margin-left: auto;
-    margin-right: auto;
-    display: table-cell;
-    vertical-align: middle;
-    height: 100%;
-    color: black;
-    font-family: "Architects-Daughter", sans-serif;
-    font-size: 16px;
-    text-decoration: underline;
-}
-
-.row {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    width: 100%;
-    height: auto;
-    max-width: fit-content;
-    
-}
-
-
-
-/*use this class to align cards to the left*/
-.left_column {
-    float: left;
-    width: 50%;
-    padding-left: 100px;
-}
-
-/*use this class to align cards to the right*/
-.right_column {
-    float: right;
-    width: 25%;
-    padding-left: 0px;
-    padding-right: 100px;
-}
-
-
-.article {
-    margin: auto;
+.top-banner {
+    height: 250px;
     width: 75%;
-    background-color: white;
+    margin: auto;
+    background-color: #6A687A;
+}
+
+.banner-column-left {
+    float: left;
+    width: 33%;
+    background-color: #6A687A;
+    height: 250px;
+}
+
+.banner-column-right {
+    float: right;
+    display: block;
+    width: 25%;
+    height: 100%;
+    background-color: #6A687A;
+}
+
+.container-image-top {
+  height: 95%;
+  width: 95%;
+  margin: auto;
+  border-radius: 50%;
+  padding-top: 2%;
+}
+
+
+.logo-container {
+    width: auto;
     
-}
-
-.center_image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    background-color: #6A687A;
+    font-family: "Roboto";
+    font-size: 200%;
     padding-top: 30px;
-    padding-bottom: 30px;
-    width: 100%;
-    height: auto;
-    max-width: fit-content;
-  }
-
-
-
-/*this code is for the text cards*/
-.card {
-    background-color: hsl(217, 0%, 86%);
-    padding: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    padding-left: 30px;
 }
 
 
 
+/*body classes*/
 
-
-.author_pic {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+body {
+    background-color: #536271;
 }
 
-a.home_page_link {
-    color: black;
+.main-body-card-left {
+    height: 100%;
+    width: 37.5%;
+    background-color: #DCC7BE;
+    float: left;
+    margin-left: 12.5%;
 }
 
-a.home_page_link:visited {
-    color: black;
+.main-body-card-right {
+    height: 100%;
+    width: 37.5%;
+    background-color: #DCC7BE;
+    float: right;
+    margin-right: 12.5%;    
 }
 
-a.home_page_link:hover {
-    color: rgb(114, 114, 114);
+.blog-article-card {
+  height: 100%;
+  width: 75%;
+  background-color: #DCC7BE;
+  margin: auto;
+  font-family: "Roboto";
 }
 
 
+.image-container {
+  position: relative;
+  width: 450px;
+  height: 350px;
+  background-color: #6A687A;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.container-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: .85;
+  transition: .5s ease;
+  background-color: #536271;
+}
+
+.image-container:hover .overlay {
+  opacity: 1;
+}
+
+.container-text {
+  color: black;
+  font-size: 30px;
+  font-family: "Roboto";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
 
 
-/*responsive layout - when the screen is less than 800px wide the
-the two columns stack on top of each other instead of next to each other*/
-@media screen and (max-width: 800px) {
-    .right_column, .left_column {
-        width: 100%;
-        padding: 0;
-    }
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 100%;
+  height: auto;
+  max-width: fit-content;
+}
+
+/*footer stuff*/
+
+footer {
+  background-color: #536271;
+}
+
+.bottom-banner {
+  height: 150px;
+  width: 75%;
+  margin: auto;
+  background-color: #6A687A;
+}
+
+.bottom-banner-center {
+  width: auto;
+  margin: auto;
+  background-color: #6A687A;
+  font-family: "Roboto";
+  text-align: center;
+  font-size: 100%;
+  padding-top: 30px;
+  padding-left: 30px;
 }
