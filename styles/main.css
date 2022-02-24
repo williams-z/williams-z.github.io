@@ -23,6 +23,20 @@ header {
     height: 250px;
 }
 
+.home-button {
+  color: black;
+}
+
+.home-button:visited {
+  color: black;
+}
+
+.home-button:hover {
+  opacity: .85;
+  transition: .2s;
+  color: #DCC7BE;
+}
+
 .banner-column-right {
     float: right;
     display: block;
@@ -39,6 +53,12 @@ header {
   padding-top: 2%;
 }
 
+.container-image-top-blog-post {
+  height: 95%;
+  width: 95%;
+  margin: auto;
+  padding-top: 2%;
+}
 
 .logo-container {
     width: auto;
@@ -79,8 +99,15 @@ body {
   width: 75%;
   background-color: #DCC7BE;
   margin: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   font-family: "Roboto";
+  box-sizing: border-box;
 }
+
+
 
 
 .image-container {
@@ -148,7 +175,7 @@ footer {
 }
 
 .bottom-banner {
-  height: 150px;
+  height: 20px;
   width: 75%;
   margin: auto;
   background-color: #6A687A;
