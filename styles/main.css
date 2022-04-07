@@ -245,6 +245,35 @@ footer {
 }
 
 @media all and (max-width: 320px) {
+
+  .top-banner {
+    height: 100px;
+    width: 75%;
+    margin: auto;
+    background-color: #6A687A;
+}
+
+.banner-column-left {
+  float: ;
+  width: 33%;
+  background-color: #6A687A;
+  height: 100px;
+}
+
+  .container-image-top {
+    display: none;
+  }
+  
+  .logo-container {
+      width: auto;
+      background-color: #6A687A;
+      font-family: "Roboto";
+      font-size: 10px;
+      padding-top: 30px;
+      padding-left: 30px;
+      margin: auto;
+  }
+
   .main-body-card-left {
     height: 100%;
     width: 75%;
@@ -266,10 +295,51 @@ footer {
     margin: auto; 
     padding-left: 10px;
     padding-right: 10px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     box-sizing: border-box; 
 }
 
+.image-container {
+  position: relative;
+  width: 220px;
+  height: 150px;
+  background-color: #6A687A;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-sizing: border-box; 
+}
+
+.container-text {
+  color: black;
+  font-size: 18px;
+  font-family: "Roboto";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.bottom-banner {
+  height: 20px;
+  width: 75%;
+  margin: auto;
+  background-color: #6A687A;
+}
+
+.bottom-banner-center {
+  width: auto;
+  margin: auto;
+  background-color: #6A687A;
+  font-family: "Roboto";
+  text-align: center;
+  font-size: 75%;
+  padding-top: 5px;
+  padding-left: 5px;
+}
 
 }
